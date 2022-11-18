@@ -63,6 +63,19 @@ main {
     display: none;
 }
 
+.fa-code {
+    background-color: orange;
+    color: white;
+    padding: 4px 2px;
+    border-radius: 100%;
+}
+
+.tabel-icon {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 4px;
+}
+
 @media screen and (min-width: 768px) {
     .sidebar {
         width: 150px;
