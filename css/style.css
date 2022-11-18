@@ -70,10 +70,23 @@ main {
     border-radius: 100%;
 }
 
-.tabel-icon {
-    border: 2px solid gray;
+.tabel-icon, .topbar-icon {
     border-radius: 5px;
     padding: 4px;
+}
+
+.tabel-icon {
+    border: 2px solid gray;
+}
+.topbar-icon {
+    border: 1px solid white;
+}
+
+.blue-bg {
+    background-color: rgba(3, 0, 19, 0.37);
+    border-radius: 10px;
+    padding: 1px 5px;
+    font-size: x-small;
 }
 
 @media screen and (min-width: 768px) {
