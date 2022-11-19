@@ -89,6 +89,24 @@ main {
     font-size: x-small;
 }
 
+.offcanvas-body input {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.offcanvas-body input, .offcanvas-body .input-group-text, .offcanvas-body select {
+    height:30px;
+}
+
+#FieldsetCheck {
+    height: 16px;
+}
+
+.none-button {
+    background-color: transparent;
+    border: none;
+}
+
 @media screen and (min-width: 768px) {
     .sidebar {
         width: 150px;
