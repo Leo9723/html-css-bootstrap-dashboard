@@ -8,7 +8,7 @@
 header {
     width: 100%;
     height: 50px;
-    background-color: rgb(210, 210, 210);
+    background-color: #F8F9FA;
     display: flex;
     align-items: center;
 }
@@ -31,7 +31,7 @@ main {
 .body-content {
     width: calc(100vw - 50px);
     height: calc(100vh - 50px);
-    background-color: brown;
+    background-color: #F8F9FA;
     overflow-y: auto;
 }
 
@@ -42,7 +42,7 @@ main {
 }
 
 .large-sidebar, .small-sidebar {
-    background-color: rgb(3, 3, 66);
+    background-color: #051E34;
     color: white;
 }
 
@@ -64,7 +64,7 @@ main {
 }
 
 .fa-code {
-    background-color: orange;
+    background-color: #F26551;
     color: white;
     padding: 4px 2px;
     border-radius: 100%;
@@ -85,7 +85,7 @@ main {
 .blue-bg {
     background-color: rgba(3, 0, 19, 0.37);
     border-radius: 10px;
-    padding: 1px 5px;
+    padding: 2px 6px;
     font-size: x-small;
 }
 
@@ -95,8 +95,14 @@ main {
 }
 
 .offcanvas-body input, .offcanvas-body .input-group-text, .offcanvas-body select {
-    height:30px;
+    height:25px;
 }
+
+.offcanvas-body button {
+    padding: 3px 5px;
+}
+
+
 
 #FieldsetCheck {
     height: 16px;
@@ -105,6 +111,69 @@ main {
 .none-button {
     background-color: transparent;
     border: none;
+}
+.searchbar {
+    border: none;
+    background-color: lightgray;
+    padding-left: 10px;
+}
+
+.s {
+    font-size: small;
+}
+
+.x-s {
+    font-size: x-small;
+}
+
+.xx-s {
+    font-size: xx-small;
+}
+
+.l {
+    font-size: large;
+}
+
+.x-l {
+    font-size: x-large;
+}
+
+.xx-l {
+    font-size: xx-large;
+}
+
+th {
+    font-weight: normal;
+}
+
+.my-card-header {
+    background-color: gray;
+}
+
+th, td {
+    font-size: small;
+}
+
+.lightblue-bg {
+    background-color: #1B72E8;
+}
+
+.green-bg {
+    background-color: #198754;
+}
+
+.yellow-bg {
+    background-color: #FFC107;
+}
+
+.red-bg {
+    background-color: #DC3545;
+}
+
+@media screen and (min-width: 576px) {
+    th {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 768px) {
