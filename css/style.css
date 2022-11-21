@@ -75,9 +75,15 @@ main {
     padding: 4px;
 }
 
+tr:hover .tabel-icon {
+    border-color: lightgray;
+    color: lightgray;
+}
+
 .tabel-icon {
     border: 1.5px solid gray;
     color: gray;
+    transition: all 0.25s;
 }
 .topbar-icon {
     border: 1px solid white;
